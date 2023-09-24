@@ -4,6 +4,7 @@ export const InputGroup = styled.div`
   font-family: 'Roboto', sans-serif;
   color: ${({theme}) => theme.COLORS.LIGHT_400};
   font-size: 1rem;
+  line-height: 1rem;
 
   display: grid;
   gap: 0.5rem;
@@ -29,6 +30,8 @@ export const Container = styled.div`
     width: 100%;
 
     font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1rem;
   }
   
 `
