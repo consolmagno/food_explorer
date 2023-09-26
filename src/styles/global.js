@@ -22,6 +22,9 @@ export default createGlobalStyle`
   body{
     background-color: ${({theme}) => theme.COLORS.DARK_400};
     color: ${({theme}) => theme.COLORS.LIGHT_100};
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem ;
     
 
   }

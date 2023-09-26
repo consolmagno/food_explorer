@@ -13,7 +13,7 @@ export const Content = styled.div`
   flex-direction: column;
   gap: 5rem;
 
-  form{
+  main{
     display: grid;
     gap: 2rem;
 
@@ -31,7 +31,7 @@ export const Content = styled.div`
     flex-direction: row;
     gap: 15rem;
 
-    form{
+    main{
       width: 22rem;
 
       h1{
