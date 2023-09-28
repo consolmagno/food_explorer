@@ -25,7 +25,7 @@ export default createGlobalStyle`
 
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem ;
-    
+  
 
   }
 `

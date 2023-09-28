@@ -14,6 +14,10 @@ export const Container = styled.button`
   padding: 0.75rem 2rem;
   cursor: pointer;
 
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+
   &:hover{
     background-color: ${({theme}) => theme.COLORS.TOMATO_200};
     transition: 0.2s;

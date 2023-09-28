@@ -33,6 +33,11 @@ export const Container = styled.div`
     font-size: 0.95rem;
     line-height: 1rem;
   }
+
+  @media screen and (min-width: 1000px){
+    width: 500px;
+  }
+
   
 `
 
