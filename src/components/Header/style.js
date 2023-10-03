@@ -4,7 +4,7 @@ export const Container = styled.header`
   position: fixed;
   z-index: 2;
   width: 100vw;
-  padding: 3.5rem 1.75rem;
+  padding: 3.5rem 1.75rem 1.5rem;
   
   img{
     height: 25px;
@@ -51,7 +51,6 @@ export const Container = styled.header`
     margin-left:auto;
     margin-right:auto;
     padding: 3.5rem 0;
-
 
     img{
     height: 30px;

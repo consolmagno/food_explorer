@@ -12,6 +12,7 @@ export const Container = styled.button`
   max-width: 19.75rem;
   border-radius: 5px;
   padding: 0.75rem 2rem;
+  height: 48px;
   cursor: pointer;
 
   display: flex;
