@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.footer`
-  position: fixed;
+  background-color: ${({theme}) => theme.COLORS.DARK_400};
+  /* position: fixed; */
   z-index: 3;
   bottom: 0;
   width: 100vw;
-
 
   @media screen and (min-width: 1000px){
     display: block;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
+  background-color: ${({theme}) => theme.COLORS.DARK_400};
   position: fixed;
   z-index: 2;
   width: 100vw;

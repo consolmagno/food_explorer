@@ -4,8 +4,12 @@ export const Container = styled.div`
 
 `
 export const Content = styled.div`
-  padding: calc(2.75rem + 7rem) 1.75rem;
-  
+  padding: calc(2.75rem + 7rem) 0 0 1.75rem;
+
+  @media screen and (min-width: 1000px){
+    max-width: 1120px;
+    margin: 0 auto;
+  }
 `
 
 export const Hero = styled.div`
@@ -13,7 +17,9 @@ export const Hero = styled.div`
   border-radius: 2.917px;
   display: flex;
   align-items: end;
-
+  margin-bottom: 3.9rem;
+  margin-right: 1.75rem;
+  
   img{
     height: 9.3rem;
     margin-top: -30px;
@@ -41,11 +47,22 @@ export const Hero = styled.div`
     margin-bottom: 1.4rem;
   }
 
+  @media screen and (min-width: 400px){
+    .heroText{
+    margin-left: 0;
+  }
+  }
   
   @media screen and (min-width: 1000px){
 
   img{
     height: 25.4rem;
+    /* margin-top: -40px;
+    margin-left: -54px; */
+  }
+
+  .heroText{
+    margin-left: 20px;
   }
 
   .heroText h2{
