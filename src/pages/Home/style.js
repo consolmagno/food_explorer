@@ -6,7 +6,8 @@ export const Container = styled.div`
 export const Content = styled.div`
   padding: calc(2.75rem + 7rem) 0 0 1.75rem;
 
-  @media screen and (min-width: 1000px){
+  @media screen and (min-width: 750px){
+    padding: calc(2.75rem + 7rem) 1.75rem 0 1.75rem;
     max-width: 1120px;
     margin: 0 auto;
   }
@@ -50,19 +51,34 @@ export const Hero = styled.div`
   @media screen and (min-width: 400px){
     .heroText{
     margin-left: 0;
+    }
   }
+
+  @media screen and (min-width: 750px){
+
+  img{
+    height: 15rem;
   }
-  
+
+  .heroText{
+    margin-left: 20px;
+  }
+
+  .heroText h2{
+    font-size: 1.75rem;
+  }
+
+  .heroText p{
+    font-size: 1rem;
+  }
+    
+  }
   @media screen and (min-width: 1000px){
 
   img{
     height: 25.4rem;
     /* margin-top: -40px;
     margin-left: -54px; */
-  }
-
-  .heroText{
-    margin-left: 20px;
   }
 
   .heroText h2{

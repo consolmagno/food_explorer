@@ -46,12 +46,6 @@ export const Container = styled.header`
   }
 
   @media screen and (min-width: 1000px){
-    max-width: 1000px;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-    padding: 3.5rem 0;
 
     img{
     height: 30px;
@@ -67,6 +61,12 @@ export const Content = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  max-width: 1000px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
 
   .menu {
     display: none;

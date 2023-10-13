@@ -23,8 +23,9 @@ export const Container = styled.div`
     background-color: transparent;
     color: ${({theme}) => theme.COLORS.LIGHT_300};
     
-    svg:active{
-      fill: ${({theme}) => theme.COLORS.LIGHT_300};
+    .active svg{
+      /* fill: ${({theme}) => theme.COLORS.LIGHT_300}; */
+      color: red;
     }
     
   }
@@ -36,7 +37,7 @@ export const Container = styled.div`
     border-radius: 50%;
   }
 
-  p{
+  a{
     color: ${({theme}) => theme.COLORS.LIGHT_300};
     font-family: Poppins;
     font-size: 0.875rem;
