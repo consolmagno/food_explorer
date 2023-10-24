@@ -8,7 +8,6 @@ export const InputGroup = styled.div`
 
   display: grid;
   gap: 1rem;
-
 `
 
 export const Container = styled.div`
@@ -20,12 +19,13 @@ export const Container = styled.div`
   gap: 1rem;
   align-items: center;
   height: 3rem;
-  padding: 0.75rem 0.875rem;
+  padding: 0.875rem 0.75rem;
   border-radius: 5px;
 
-  input{
+  select{
     background-color: transparent;
     color: ${({theme}) => theme.COLORS.LIGHT_500};
+    outline: transparent;
     
     width: 100%;
 
@@ -37,7 +37,5 @@ export const Container = styled.div`
   @media screen and (min-width: 1000px){
     width: 500px;
   }
-
-  
 `
 

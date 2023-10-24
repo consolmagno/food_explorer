@@ -6,15 +6,6 @@ export const Container = styled.footer`
   z-index: 3;
   bottom: 0;
   width: 100vw;
-
-  @media screen and (min-width: 1000px){
-    display: block;
-    max-width: 1000px;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-  }
 `
 
 export const Content = styled.div`
@@ -30,12 +21,17 @@ export const Content = styled.div`
 
   span{
     color: ${({theme}) => theme.COLORS.LIGHT_200};
-
     font-size: 0.75rem;
   }
 
   @media screen and (min-width: 1000px){
     padding: 1.875rem 0;
+    max-width: 1000px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    
     img{
     height: 1.875rem;
     }
