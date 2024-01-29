@@ -1,4 +1,4 @@
-import { Container, Content, Image} from "./style";
+import { Container, Content, Image, Tags} from "./style";
 import {Header} from "../../components/Header"
 import {Footer} from "../../components/Footer"
 import { Input} from "../../components/Input"
@@ -6,6 +6,7 @@ import {FiSearch, FiChevronLeft, FiUpload} from "react-icons/fi"
 import { useNavigate } from "react-router-dom";
 import { TextArea } from "../../components/TextArea";
 import { Select } from "../../components/Select/Index";
+import { DishItem } from "../../components/DishItem";
 
 export function CreateDish(){
 
@@ -37,6 +38,10 @@ export function CreateDish(){
         <option value="ola">Refeição</option>
         <option value="ola2">2</option>
       </Select>
+      <Tags>
+        <DishItem isNew />
+      </Tags>
+      
       <Input type="number" placeholder="R$ 00,00" label="Preço" id="price"/>
       <TextArea placeholder="Fale brevemente sobre o prato, seus ingredientes e composição" label="Descrição" id="description"/>
         

@@ -5,7 +5,6 @@ export const Container = styled.div`
   flex-direction: column;
   min-height: 100vh;
 `
-
 export const Content = styled.div`
   padding: calc(1rem + 7rem) 2.5rem 2rem;
   display: flex;
@@ -62,4 +61,11 @@ export const Image = styled.div`
   input {
     display: none;
   }
+`
+export const Tags = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 `
